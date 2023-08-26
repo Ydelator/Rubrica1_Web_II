@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from '.components/Navbar'
+import Navbar from './components/Navbar'
+import {Datos} from './contexto/Contexto'
 function App() {
   const [over, setOver] = useState(true)
   const [content, setContent] = useState(false)
