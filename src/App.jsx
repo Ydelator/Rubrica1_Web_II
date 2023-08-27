@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar'
-import {Datos} from './contexto/Contexto'
+import { Datos } from './contexto/Contexto'
 import Overview from './pages/Overview'
 import Content from './pages/Content'
 import Create from './pages/Create'
@@ -15,16 +16,16 @@ function App() {
     <Datos>
       <div>
         <header>
-          <Navbar setOver ={setOver} setContent={setContent} setCreate={setCreate}></Navbar>
+          <Navbar setOver={setOver} setContent={setContent} setCreate={setCreate}></Navbar>
         </header>
         {
-          over ? <Overview/> : <></>
+          over ? <Overview /> : <></>
         }
         {
-          content ? <Content/> : <></>
+          content ? <Content /> : <></>
         }
         {
-          create ? <Create/> : <></>
+          create ? <Create /> : <></>
         }
       </div>
     </Datos>
