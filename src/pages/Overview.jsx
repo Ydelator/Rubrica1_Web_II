@@ -17,7 +17,6 @@ const Overview = () => {
   },[])
 
   const leer = () =>{
-    console.log(".."+ localStorage.getItem("fav1"))
     if (localStorage.getItem("fav1")==null) {
       setFav1(false)
     } else {
@@ -52,7 +51,6 @@ const Overview = () => {
   }
 
   const guardar1 = () =>{
-    console.log("->"+ JSON.parse(!favorito1))
     setFav1(!favorito1)
     localStorage.setItem("fav1",!favorito1)
     //console.log(localStorage.getItem("fav1"))
