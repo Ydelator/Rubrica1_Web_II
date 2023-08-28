@@ -7,6 +7,7 @@ const Overview = () => {
   const [favorito3, setFav3] = useState(false)
   const [favorito4, setFav4] = useState(false)
 
+
   React.useEffect(()=>{
     try {
       leer()
@@ -55,9 +56,13 @@ const Overview = () => {
     setFav1(!favorito1)
     localStorage.setItem("fav1",!favorito1)
     //console.log(localStorage.getItem("fav1"))
+    localStorage.setItem("fav1",!favorito1)
+    //console.log(localStorage.getItem("fav1"))
   }
   const guardar2 = () =>{
     setFav2(!favorito2)
+    localStorage.setItem("fav2",!favorito2)
+
     localStorage.setItem("fav2",!favorito2)
 
   }
@@ -65,9 +70,13 @@ const Overview = () => {
     setFav3(!favorito3)
     localStorage.setItem("fav3",!favorito3)
 
+    localStorage.setItem("fav3",!favorito3)
+
   }
   const guardar4 = () =>{
     setFav4(!favorito4)
+    localStorage.setItem("fav4",!favorito4)
+
     localStorage.setItem("fav4",!favorito4)
 
   }
