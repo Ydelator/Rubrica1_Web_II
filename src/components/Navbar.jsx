@@ -18,10 +18,10 @@ const Navbar = (props) => {
     }
 
   return (
-    <div>
-        <button onClick={modoOver}>Overview</button>
-        <button onClick={modoContent}>Content</button>
-        <button onClick={modoCreate}>Create</button>
+    <div className='navbar'>
+        <button onClick={modoOver}><span></span>Overview</button>
+        <button onClick={modoContent}><span></span>Content</button>
+        <button onClick={modoCreate}><span></span>Create</button>
     </div>
   )
 }

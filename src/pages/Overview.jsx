@@ -79,51 +79,51 @@ const Overview = () => {
 
   }
   return (
-    <div>
-      <div className="card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Data_loss_of_image_file.JPG/200px-Data_loss_of_image_file.JPG" alt="imagen" />
-        <h2>Titulo</h2>
+    <div className='container-over'>
+      <div className="card-over">
+        <img src="https://cdn-icons-png.flaticon.com/512/2495/2495007.png" alt="imagen" />
+        <h2>Noticias</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolor dolore magnam deserunt! Quos minima, perferendis incidunt suscipit assumenda magni blanditiis ullam ipsum! Iusto eius architecto esse quisquam sit hic.</p>
         <div className="cont-favorite">
           <button onClick={guardar1}>
             {
-              favorito1 ? <i className="fa-solid fa-heart"></i> : <i className="fa-regular fa-heart"></i>              
+              favorito1 ? <i id='relleno' className="fa-solid fa-heart"></i> : <i className="fa-regular fa-heart"></i>              
             }
           </button>
         </div>
       </div>
-      <div className="card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Data_loss_of_image_file.JPG/200px-Data_loss_of_image_file.JPG" alt="imagen" />
-        <h2>Titulo</h2>
+      <div className="card-over">
+        <img src="https://png.pngtree.com/png-clipart/20230802/original/pngtree-movie-premiere-show-or-cinema-with-camera-picture-image_7834097.png" alt="imagen" />
+        <h2>Cartelera</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolor dolore magnam deserunt! Quos minima, perferendis incidunt suscipit assumenda magni blanditiis ullam ipsum! Iusto eius architecto esse quisquam sit hic.</p>
         <div className="cont-favorite">
           <button onClick={guardar2}>
             {
-              favorito2 ? <i className="fa-solid fa-heart"></i> : <i className="fa-regular fa-heart"></i>
+              favorito2 ? <i id='relleno' className="fa-solid fa-heart"></i> : <i className="fa-regular fa-heart"></i>
             }
           </button>
         </div>
       </div>
-      <div className="card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Data_loss_of_image_file.JPG/200px-Data_loss_of_image_file.JPG" alt="imagen" />
-        <h2>Titulo</h2>
+      <div className="card-over">
+        <img src="https://www.laizquierdadiario.cl/IMG/arton5354.png?1414631299" alt="imagen" />
+        <h2>Estrenos proximos</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolor dolore magnam deserunt! Quos minima, perferendis incidunt suscipit assumenda magni blanditiis ullam ipsum! Iusto eius architecto esse quisquam sit hic.</p>
         <div className="cont-favorite">
           <button onClick={guardar3}>
             {
-              favorito3 ? <i className="fa-solid fa-heart"></i> : <i className="fa-regular fa-heart"></i>
+              favorito3 ? <i id='relleno' className="fa-solid fa-heart"></i> : <i className="fa-regular fa-heart"></i>
             }
           </button>
         </div>
       </div>
-      <div className="card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Data_loss_of_image_file.JPG/200px-Data_loss_of_image_file.JPG" alt="imagen" />
-        <h2>Titulo</h2>
+      <div className="card-over">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Rotten_Tomatoes.svg/1009px-Rotten_Tomatoes.svg.png" alt="imagen" />
+        <h2>Reseñas</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolor dolore magnam deserunt! Quos minima, perferendis incidunt suscipit assumenda magni blanditiis ullam ipsum! Iusto eius architecto esse quisquam sit hic.</p>
         <div className="cont-favorite">
           <button onClick={guardar4}>
             {
-              favorito4 ? <i className="fa-solid fa-heart"></i> : <i className="fa-regular fa-heart"></i>
+              favorito4 ? <i id='relleno' className="fa-solid fa-heart"></i> : <i className="fa-regular fa-heart"></i>
             }
           </button>
         </div>
