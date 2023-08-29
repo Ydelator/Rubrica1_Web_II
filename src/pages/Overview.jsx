@@ -53,9 +53,9 @@ const Overview = () => {
   const guardar1 = () =>{
     setFav1(!favorito1)
     localStorage.setItem("fav1",!favorito1)
-    console.log(localStorage.getItem("fav1"))
-    localStorage.setItem("fav1",!favorito1)
     //console.log(localStorage.getItem("fav1"))
+    localStorage.setItem("fav1",!favorito1)
+    console.log(localStorage.getItem("fav1"))
   }
   const guardar2 = () =>{
     setFav2(!favorito2)
