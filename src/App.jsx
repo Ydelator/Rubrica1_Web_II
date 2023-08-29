@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import {Datos} from './contexto/Contexto'
 import Overview from './pages/Overview'
 import Content from './pages/Content'
@@ -24,8 +25,9 @@ function App() {
           content ? <Content/> : <></>
         }
         {
-          create ? <Create/> : <></>
+          create ? <Create setOver={setOver} setContent={setContent} setCreate={setCreate}/> : <></>
         }
+        <Footer />
       </div>
     </Datos>
   )

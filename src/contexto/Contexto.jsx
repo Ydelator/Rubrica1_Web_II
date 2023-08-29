@@ -4,7 +4,7 @@ import { createContext } from 'react'
 export const Contexto = createContext()
 
 export const Datos = ({children}) => {
-  const dataMovie = [
+  const [dataMovie, setDataMov] = React.useState([
     {
       id:1,
       titulo: "La noche del demonio: La puerta roja",
@@ -105,9 +105,9 @@ export const Datos = ({children}) => {
       categoria: "Romance",
       link:"https://www.imdb.com/title/tt10886166/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_365"
     }
-  ]
+  ])
   return (
-    <Contexto.Provider value={{dataMovie}}>
+    <Contexto.Provider value={{dataMovie, setDataMov}}>
         {children}
     </Contexto.Provider>
   )
